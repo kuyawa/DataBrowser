@@ -1,5 +1,6 @@
 TODO:
 
+- AppIcon!
 - Pagination go first, go last
 x Record pagination 0..100
 - Fit to size. Find best width according to header width or field content
