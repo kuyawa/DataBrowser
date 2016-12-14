@@ -1,0 +1,29 @@
+TODO:
+
+- Pagination go first, go last
+x Record pagination 0..100
+- Fit to size. Find best width according to header width or field content
+- Tabs browse/schema on action bar
+
+
+---------------------------
+
+DONE:
+
+x On selecting database, save as default for next time
+x Massage fields from schema to reflect type and size
+x Select first table, browse it
+x Build tableView from table fields/rows
+x List tables in sidebar
+x Bundle test database, on init copy locally and open it, save as default
+
+
+---------------------------
+
+VERSION 1:
+- No record edition
+- No schema edition
+
+VERSION 2:
+- Record edition
+- Schema edition

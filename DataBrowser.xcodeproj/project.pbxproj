@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D9938571DFF788E0032C448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9938561DFF788E0032C448 /* AppDelegate.swift */; };
+		3D9938591DFF788E0032C448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9938581DFF788E0032C448 /* ViewController.swift */; };
+		3D99385B1DFF788E0032C448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D99385A1DFF788E0032C448 /* Assets.xcassets */; };
+		3D99385E1DFF788F0032C448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D99385C1DFF788F0032C448 /* Main.storyboard */; };
+		3D9938661DFF86670032C448 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9938651DFF86670032C448 /* Database.swift */; };
+		3D9938691DFF88A80032C448 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9938681DFF88A80032C448 /* libsqlite3.tbd */; };
+		3D99386C1DFF8CB50032C448 /* ToDo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D99386B1DFF8CB50032C448 /* ToDo.txt */; };
+		3D99386E1DFF8E070032C448 /* Test.db in Resources */ = {isa = PBXBuildFile; fileRef = 3D99386D1DFF8E070032C448 /* Test.db */; };
+		3DAAC3AF1E009C57000E1AF3 /* BrowseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAC3AE1E009C57000E1AF3 /* BrowseController.swift */; };
+		3DCF67221E016F4400D60404 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF67211E016F4400D60404 /* Schema.swift */; };
+		3DCF67241E0196F900D60404 /* BaseTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF67231E0196F800D60404 /* BaseTableCell.xib */; };
+		3DDD03551E01CBF90083805D /* NumericTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DDD03541E01CBF90083805D /* NumericTableCell.xib */; };
+		3DDD03571E01D4ED0083805D /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDD03561E01D4ED0083805D /* TableController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D9938531DFF788E0032C448 /* DataBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9938561DFF788E0032C448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D9938581DFF788E0032C448 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		3D99385A1DFF788E0032C448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D99385D1DFF788F0032C448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D99385F1DFF788F0032C448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9938651DFF86670032C448 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		3D9938681DFF88A80032C448 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3D99386A1DFF89360032C448 /* bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bridging-header.h"; sourceTree = "<group>"; };
+		3D99386B1DFF8CB50032C448 /* ToDo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ToDo.txt; sourceTree = "<group>"; };
+		3D99386D1DFF8E070032C448 /* Test.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Test.db; sourceTree = "<group>"; };
+		3DAAC3AE1E009C57000E1AF3 /* BrowseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		3DCF67211E016F4400D60404 /* Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schema.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		3DCF67231E0196F800D60404 /* BaseTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTableCell.xib; sourceTree = "<group>"; };
+		3DD4903B1E0205E20010A97D /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		3DDD03541E01CBF90083805D /* NumericTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumericTableCell.xib; sourceTree = "<group>"; };
+		3DDD03561E01D4ED0083805D /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D9938501DFF788E0032C448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9938691DFF88A80032C448 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D99384A1DFF788E0032C448 = {
+			isa = PBXGroup;
+			children = (
+				3DD4903B1E0205E20010A97D /* Readme.md */,
+				3D99386B1DFF8CB50032C448 /* ToDo.txt */,
+				3D9938551DFF788E0032C448 /* DataBrowser */,
+				3D9938671DFF88A70032C448 /* Frameworks */,
+				3D9938541DFF788E0032C448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D9938541DFF788E0032C448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D9938531DFF788E0032C448 /* DataBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D9938551DFF788E0032C448 /* DataBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				3D99385F1DFF788F0032C448 /* Info.plist */,
+				3D9938561DFF788E0032C448 /* AppDelegate.swift */,
+				3D99386A1DFF89360032C448 /* bridging-header.h */,
+				3D99386D1DFF8E070032C448 /* Test.db */,
+				3D9938651DFF86670032C448 /* Database.swift */,
+				3DCF67211E016F4400D60404 /* Schema.swift */,
+				3D9938581DFF788E0032C448 /* ViewController.swift */,
+				3DDD03561E01D4ED0083805D /* TableController.swift */,
+				3DAAC3AE1E009C57000E1AF3 /* BrowseController.swift */,
+				3DCF67231E0196F800D60404 /* BaseTableCell.xib */,
+				3DDD03541E01CBF90083805D /* NumericTableCell.xib */,
+				3D99385C1DFF788F0032C448 /* Main.storyboard */,
+				3D99385A1DFF788E0032C448 /* Assets.xcassets */,
+			);
+			path = DataBrowser;
+			sourceTree = "<group>";
+		};
+		3D9938671DFF88A70032C448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D9938681DFF88A80032C448 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D9938521DFF788E0032C448 /* DataBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D9938621DFF788F0032C448 /* Build configuration list for PBXNativeTarget "DataBrowser" */;
+			buildPhases = (
+				3D99384F1DFF788E0032C448 /* Sources */,
+				3D9938501DFF788E0032C448 /* Frameworks */,
+				3D9938511DFF788E0032C448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataBrowser;
+			productName = DataBrowser;
+			productReference = 3D9938531DFF788E0032C448 /* DataBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D99384B1DFF788E0032C448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Armonia;
+				TargetAttributes = {
+					3D9938521DFF788E0032C448 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D99384E1DFF788E0032C448 /* Build configuration list for PBXProject "DataBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D99384A1DFF788E0032C448;
+			productRefGroup = 3D9938541DFF788E0032C448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D9938521DFF788E0032C448 /* DataBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D9938511DFF788E0032C448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D99385B1DFF788E0032C448 /* Assets.xcassets in Resources */,
+				3D99386E1DFF8E070032C448 /* Test.db in Resources */,
+				3DDD03551E01CBF90083805D /* NumericTableCell.xib in Resources */,
+				3DCF67241E0196F900D60404 /* BaseTableCell.xib in Resources */,
+				3D99385E1DFF788F0032C448 /* Main.storyboard in Resources */,
+				3D99386C1DFF8CB50032C448 /* ToDo.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D99384F1DFF788E0032C448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDD03571E01D4ED0083805D /* TableController.swift in Sources */,
+				3D9938661DFF86670032C448 /* Database.swift in Sources */,
+				3D9938591DFF788E0032C448 /* ViewController.swift in Sources */,
+				3D9938571DFF788E0032C448 /* AppDelegate.swift in Sources */,
+				3DAAC3AF1E009C57000E1AF3 /* BrowseController.swift in Sources */,
+				3DCF67221E016F4400D60404 /* Schema.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D99385C1DFF788F0032C448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D99385D1DFF788F0032C448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D9938601DFF788F0032C448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D9938611DFF788F0032C448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		3D9938631DFF788F0032C448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DataBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Armonia.DataBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "/Volumes/Documents/mini/Work/MacApps/DataBrowser/DataBrowser/bridging-header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3D9938641DFF788F0032C448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DataBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Armonia.DataBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "/Volumes/Documents/mini/Work/MacApps/DataBrowser/DataBrowser/bridging-header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D99384E1DFF788E0032C448 /* Build configuration list for PBXProject "DataBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9938601DFF788F0032C448 /* Debug */,
+				3D9938611DFF788F0032C448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D9938621DFF788F0032C448 /* Build configuration list for PBXNativeTarget "DataBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9938631DFF788F0032C448 /* Debug */,
+				3D9938641DFF788F0032C448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D99384B1DFF788E0032C448 /* Project object */;
+}
