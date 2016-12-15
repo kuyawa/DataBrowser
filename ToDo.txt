@@ -1,8 +1,6 @@
 TODO:
 
-- AppIcon!
 - Pagination go first, go last
-x Record pagination 0..100
 - Fit to size. Find best width according to header width or field content
 - Tabs browse/schema on action bar
 
@@ -11,6 +9,8 @@ x Record pagination 0..100
 
 DONE:
 
+x AppIcon!
+x Record pagination 0..100
 x On selecting database, save as default for next time
 x Massage fields from schema to reflect type and size
 x Select first table, browse it
