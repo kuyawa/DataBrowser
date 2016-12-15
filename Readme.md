@@ -6,6 +6,6 @@ This mac app is a simple browser for SQLite databases to see the content of the 
 
 Here is a screenshot of the app:
 
-![Screenshot](https://raw.githubusercontent.com/kuyawa/DataBrowser/master/Screenshots/DataBrowserx.jpg)
+![Screenshot](https://raw.githubusercontent.com/kuyawa/DataBrowser/master/Screenshots/DataBrowser.jpg)
 
 As always, send your comments and suggestions our way so we can improve it.
