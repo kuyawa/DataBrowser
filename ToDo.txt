@@ -1,5 +1,6 @@
 TODO:
 
+- Change browser font to monospaced numbers
 - Pagination go first, go last
 - Fit to size. Find best width according to header width or field content
 - Tabs browse/schema on action bar
