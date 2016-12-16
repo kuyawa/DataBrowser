@@ -1,6 +1,7 @@
 TODO:
 
-- Change browser font to monospaced numbers
+- Change browser font to monospaced numbers:
+  NSFont.monospacedDigitSystemFont(ofSize: 12.0, weight: NSFontWeightRegular)
 - Pagination go first, go last
 - Fit to size. Find best width according to header width or field content
 - Tabs browse/schema on action bar

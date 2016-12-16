@@ -107,6 +107,7 @@ class BrowseController: NSObject, NSTableViewDataSource, NSTableViewDelegate {
         tableView.delegate   = self
         tableView.dataSource = self
         tableView.target     = self
+        tableView.font       = NSFont.monospacedDigitSystemFont(ofSize: 12.0, weight: NSFontWeightRegular)
     }
     
     func reload() {
