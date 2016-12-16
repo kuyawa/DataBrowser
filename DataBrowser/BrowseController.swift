@@ -89,6 +89,7 @@ class BrowseController: NSObject, NSTableViewDataSource, NSTableViewDelegate {
             col.headerCell.alignment = .center
             col.width = CGFloat(size)
             if col.width < 1.0 { col.width = 40.0 }
+            col.isEditable = true
             tableView.addTableColumn(col)
 
             switch field.base {
